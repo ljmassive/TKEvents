@@ -82,7 +82,7 @@ nav > div {
 }
 
 #quick-contact a {
-  color: rgb(19, 123, 209);
+  color: rgb(17, 110, 187);
   text-decoration: none;
 }
 
@@ -111,7 +111,7 @@ nav > div {
 }
 
 #banner-container {
-  background: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url('../images/projector-extra-large.jpg');
+  background: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url('../images/projector-extra-large.webp');
   background-position: center;
   max-width: 1400px;
   height: 360px;
@@ -185,7 +185,7 @@ nav > div {
 
 hr {
   width: 50px; 
-  color: rgb(19, 123, 209);
+  color: 15, 96, 163;
 }
 .feature-container {
   max-width: 1200px;
@@ -219,7 +219,7 @@ hr {
   padding: 1em;
 }
 .feature-text button {
-  background: rgb(19, 123, 209);
+  background: rgb(17, 110, 187);
   color: white;
   border: none; 
   border-radius: 2px;
@@ -230,7 +230,7 @@ hr {
   margin: 2em auto;
 }
 #wide-banner {
-  background: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url('../images/wide-caravan.jpeg');
+  background: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url('../images/wide-caravan.webp');
   background-repeat: no-repeat;
   background-position: center; 
   background-size: cover;
