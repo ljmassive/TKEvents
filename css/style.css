@@ -330,3 +330,8 @@ hr {
     padding: 1em 0;
   }
 }
+@media screen and (max-width: 480px){
+  i { 
+    font-size: 24px;
+  }
+}
