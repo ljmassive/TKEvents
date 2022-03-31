@@ -263,13 +263,14 @@ hr {
   }
   .feature-container {
     justify-content: space-around;
-    margin: 75px;
+    margin: 75px auto;
   }
   .feature-text {
     width: 280px;
   }
   .feature-pic {
     max-width: 360px;
+    padding: 1em;
   }
   #banner-container {
     height: 375px;
