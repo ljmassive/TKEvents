@@ -154,11 +154,14 @@ nav > div {
   bottom: 0%;
   right: 0%;
 }
+.fancy-font {
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+}
 .title-text {
-  font-family: 'Poiret One', cursive;
-  font-weight: bold;
   text-align: center;
   text-transform: uppercase;
+  font-weight: 400;
 }
 
 .banner-text a {
@@ -190,7 +193,7 @@ hr {
 .feature-container {
   max-width: 1200px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 0;
 }
@@ -216,7 +219,6 @@ hr {
   width: 100%;
   height: auto;
   max-width: 540px;
-  padding: 1em;
 }
 .feature-text button {
   background: rgb(17, 110, 187);
@@ -261,6 +263,7 @@ hr {
   }
   .feature-container {
     justify-content: space-around;
+    margin: 75px;
   }
   .feature-text {
     width: 280px;
@@ -283,8 +286,14 @@ hr {
   #footer hr {
     display: none;
   }
+  .main-block {
+    margin: 100px auto;
+  }
 }
 @media screen and (min-width: 960px) {
+  .feature-container {
+    margin: 100px auto;
+  }
   .feature-text {
     width: 360px;
   }
@@ -302,6 +311,9 @@ hr {
   }
   #wide-banner {
     min-height: 480px;
+  }
+  .main-block {
+    margin: 130px auto;
   }
 }
 @media screen and (min-width: 1200px) {
