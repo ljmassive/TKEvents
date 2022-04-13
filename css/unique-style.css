@@ -22,9 +22,6 @@
 	}
 }
 @media screen and (min-width:1200px) {
-	.feature-container {
-		justify-content: space-around;
-	}
 	.feature-text {
 		width: 650px;
 	}
