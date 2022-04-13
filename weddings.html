@@ -36,7 +36,7 @@
     }
   </style>
 	<link rel="stylesheet" type="text/css" href="css/style.css" >
-    <link rel="stylesheet" type="text/css" href="css/parties-style.css" >
+    <link rel="stylesheet" type="text/css" href="css/pages-style.css" >
   <script src="https://kit.fontawesome.com/89ddf2470d.js" crossorigin="anonymous" async></script>
   <script src="js/lazysizes.min.js" async></script>
 <head>
@@ -72,39 +72,69 @@
 
   <div id="what-we-do" class="centered-block main-block" >
     <hr >
-    <p class="centered-block" style="max-width:650px;text-align:justify;">We can supply fairy lights, coloured flood lights, and festoon lights for indoors and outdoors. We can supply microphones and speakers for your speeches; and party lighting, sound and DJs to transform your venue into a dancefloor later on. </p>
-    <p class="centered-block" style="max-width:650px;text-align:justify;">We’re reasonably priced, very happy to help with advice and setup in advance, and totally reliable. Please get in touch to discuss how we can help.</p> 
+    <p class="centered-block" >We can supply fairy lights, coloured flood lights, and festoon lights for indoors and outdoors. We can supply microphones and speakers for your speeches; and party lighting, sound and DJs to transform your venue into a dancefloor later on. </p>
+    <p class="centered-block" >We’re reasonably priced, very happy to help with advice and setup in advance, and totally reliable. Please get in touch to discuss how we can help.</p> 
     <hr >
   </div>
  
+  <script>
+    if (window.innerWidth > 750) {
+      var head = document.getElementsByTagName('head')[0];
+  
+      var s1 = document.createElement("script");
+      s1.type = "text/javascript";
+      s1.src = "js/slides.js";
+      head.appendChild(s1);
+    }
+  </script>
+  
+  <div class="slider-container main-block">
 
-  <div class="main-block">
-    <div class="centered-block feature-container" >
-      <div class="feature-text">
-        <p>We can supply speakers and stands, microphones, a small sound mixer, and a few disco lights for a normal sized wedding for around <b>£80</b>.</p>
-      </div>
-      <img class="feature-pic lazyload" data-src="images/basic-wedding2-720px.jpg" alt="Image of a garden party.">
-    </div>
-    <hr >
-    <div class="centered-block feature-container" >
-      <img class="feature-pic lazyload" data-src="images/wedding-dj-540px.jpg" alt="Image of DJ equipment with wedding guests in background.">
-      <div class="feature-text">
-        <p>For an old fashioned wedding DJ, including all equipment they need for the evening and some decent party lighting, for around <b>£250</b>.</p>
+    <div id="slide_1" class="slide fade">
+      <div class="centered-block feature-container" >
+        <div class="feature-text">
+          <p>We can supply speakers and stands, microphones, a small sound mixer, and a few disco lights for a normal sized wedding for around <b>£80</b>.</p>
+        </div>
+        <img class="feature-pic lazyload" data-src="images/basic-wedding2-720px.jpg" alt="Image of a garden party.">
       </div>
     </div>
-    <hr>
-    <div class="centered-block feature-container">
-      <div class="feature-text">
-        <p>We turned this barn...</p>
-      </div>
-      <img class="feature-pic lazyload" data-src="images/wedding-barn-720px.jpg" alt="Image of a barn with a tractor and sheep.">
-    </div>
-    <div class="centered-block feature-container">
-      <img class="feature-pic lazyload" data-src="images/wedding-720px.jpg" alt="Image of music equipment and a man playing a guitar.">
-      <div class="feature-text">
-        <p>...into this venue with fairy lights along the roof, festoon lighting outdoors, uplighting on the trees, a DJ and dance floor lighting, including two days for the installation; all for around <b>£500</b>. </p>
+
+    <hr class="mobile-only">
+
+    <div id="slide_2" class="slide fade">
+      <div class="centered-block feature-container" >
+        <img class="feature-pic lazyload" data-src="images/wedding-dj-540px.jpg" alt="Image of DJ equipment with wedding guests in background.">
+        <div class="feature-text">
+          <p>For an old fashioned wedding DJ, including all equipment they need for the evening and some decent party lighting, for around <b>£250</b>.</p>
+        </div>
       </div>
     </div>
+
+    <hr class="mobile-only">
+    <div id="slide_3" class="slide fade">
+      <div class="centered-block feature-container">
+        <div class="feature-text">
+          <p>We turned this barn...</p>
+        </div>
+        <img class="feature-pic lazyload" data-src="images/wedding-barn-720px.jpg" alt="Image of a barn with a tractor and sheep.">
+      </div>
+    </div>
+    <div id="slide_4" class="slide fade">
+      <div class="centered-block feature-container">
+        <img class="feature-pic lazyload" data-src="images/wedding-720px.jpg" alt="Image of music equipment and a man playing a guitar.">
+        <div class="feature-text">
+          <p>...into this venue with fairy lights along the roof, festoon lighting outdoors, uplighting on the trees, a DJ and dance floor lighting, including two days for the installation; all for around <b>£500</b>. </p>
+        </div>
+      </div>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <div class="main-block" style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
   </div>
 
   <div id="footer">

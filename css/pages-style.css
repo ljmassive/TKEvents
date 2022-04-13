@@ -1,0 +1,13 @@
+#banner-container {
+  height: 280px;
+}
+.banner-text {
+  height: 280px;
+}
+.feature-pic {
+    width: 100%;
+    height: auto;
+}
+#what-we-do p {
+  max-width: 650px; 
+}
