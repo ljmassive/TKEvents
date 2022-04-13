@@ -11,3 +11,8 @@
 #what-we-do p {
   max-width: 650px; 
 }
+@media screen and (min-width: 750px) {
+  .feature-container {
+    justify-content: center;
+  }
+}
