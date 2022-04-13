@@ -36,7 +36,7 @@
     }
   </style>
 	<link rel="stylesheet" type="text/css" href="css/style.css" >
-    <link rel="stylesheet" type="text/css" href="css/parties-style.css" >
+    <link rel="stylesheet" type="text/css" href="css/pages-style.css" >
   <script src="https://kit.fontawesome.com/89ddf2470d.js" crossorigin="anonymous" async></script>
   <script src="js/lazysizes.min.js" async></script>
 <head>
@@ -72,54 +72,84 @@
 
   <div id="what-we-do" class="centered-block main-block" >
     <hr >
-    <p class="centered-block" style="max-width: 650px;">If you’ve ever struggled to get everyone to hear you at a busy event, or been asked the same question over and over again, this is where our team can help. </p> 
-    <p class="centered-block" style="max-width: 650px;">We can supply large speakers that support a full dynamic range - no tinniness when used to play music as with horn type speakers. We have a caravan that has been converted into a commentary/DJ booth/race office, sound mixers, microphones and radio microphones for commentary or announcements. </p>
-    <p class="centered-block" style="max-width: 650px;">Below you'll find just a few examples of the work we've done. Please don’t hesitate to get in touch for pricing and to talk about any part of your event!</p>
+    <p class="centered-block" >If you’ve ever struggled to get everyone to hear you at a busy event, or been asked the same question over and over again, this is where our team can help. </p> 
+    <p class="centered-block" >We can supply large speakers that support a full dynamic range - no tinniness when used to play music as with horn type speakers. We have a caravan that has been converted into a commentary/DJ booth/race office, sound mixers, microphones and radio microphones for commentary or announcements. </p>
+    <p class="centered-block" >Below you'll find just a few examples of the work we've done. Please don’t hesitate to get in touch for pricing and to talk about any part of your event!</p>
     <hr >
   </div>
  
-  <div class="main-block">
-    <div class="centered-block feature-container" >
-      <img class="feature-pic lazyload" data-src="images/sea-kayak-500px.jpg" alt="Image of a garden party.">
-      <div class="feature-text">
-        <p>We supported this kayak race on the Conwy with the use of the caravan as a site office for around <b>£50</b>.</p>
+  <script>
+    if (window.innerWidth > 750) {
+      var head = document.getElementsByTagName('head')[0];
+  
+      var s1 = document.createElement("script");
+      s1.type = "text/javascript";
+      s1.src = "js/slides.js";
+      head.appendChild(s1);
+    }
+  </script>
+  
+  <div class="slider-container main-block">
+
+    <div id="slide_1" class="slide fade">
+      <div class="centered-block feature-container" >
+        <img class="feature-pic lazyload" data-src="images/sea-kayak-500px.jpg" alt="Image of a garden party.">
+        <div class="feature-text">
+          <p>We supported this kayak race on the Conwy with the use of the caravan as a site office for around <b>£50</b>.</p>
+        </div>
       </div>
     </div>
 
-    <hr>
-    <div class="centered-block feature-container" >
-      
-      <div class="feature-text">
-        <p>We supplied this horse event in Ruthin our caravan for use as the event office for less than <b>£100</b> for the day.</b>.</p>
-      </div>
-      <img class="feature-pic lazyload" data-src="images/horse-720px.jpg" alt="Image of a garden party.">
-    </div>
+    <hr class="mobile-only">
 
-    <hr>
-    <div class="centered-block feature-container">
-      <img class="feature-pic lazyload" data-src="images/outdoor-dj-720px.jpg" alt="Image of cows in a barn.">
-      <div class="feature-text">
-        <p>We supported this windsurfing event with outdoor sound, commentary, DJing, and some tents at the lakeside for around <b>£300</b> for the day.</p>
+    <div id="slide_2" class="slide fade">
+      <div class="centered-block feature-container" >
+        <div class="feature-text">
+          <p>We supplied this horse event in Ruthin our caravan for use as the event office for less than <b>£100</b> for the day.</b>.</p>
+        </div>
+        <img class="feature-pic lazyload" data-src="images/horse-720px.jpg" alt="Image of a garden party.">
       </div>
     </div>
 
-    <div class="centered-block feature-container">
-      <img class="feature-pic lazyload" data-src="images/outdoor-spectators-720px.jpg" alt="Image of music equipment and a man playing a guitar." style="max-width:540px">
-      <img class="feature-pic lazyload" data-src="images/windsurfing-pic-720px.jpg" alt="Image of music equipment and a man playing a guitar." style="max-width:540px">
-      
-    </div>
+    <hr class="mobile-only">
 
-    <hr>
-
-    <div class="centered-block feature-container">
-      <div class="feature-text">
-        <p>We supplied speakers, lights, our caravan, setup, and three evenings of sound and DJ support to this outdoor cinema in Colwyn Bay for <b>£650</b>.</p>
+    <div id="slide_3" class="slide fade">
+      <div class="centered-block feature-container">
+        <img class="feature-pic lazyload" data-src="images/outdoor-dj-720px.jpg" alt="Image of cows in a barn.">
+        <div class="feature-text">
+          <p>We supported this windsurfing event with outdoor sound, commentary, DJing, and some tents at the lakeside for around <b>£300</b> for the day.</p>
+        </div>
       </div>
-      <img class="feature-pic lazyload" data-src="images/outdoor-cinema-720px.jpg" alt="Image of a climbing wall.">
     </div>
 
+    <div id="slide_4" class="slide fade">
+      <div class="centered-block feature-container">
+        <img class="feature-pic lazyload" data-src="images/outdoor-spectators-720px.jpg" alt="Image of music equipment and a man playing a guitar." style="max-width:540px">
+        <img class="feature-pic lazyload" data-src="images/windsurfing-pic-720px.jpg" alt="Image of music equipment and a man playing a guitar." style="max-width:540px">
+      </div>
+    </div>
     
+    <hr class="mobile-only">
+
+    <div id="slide_5" class="slide fade">
+      <div class="centered-block feature-container">
+        <div class="feature-text">
+          <p>We supplied speakers, lights, our caravan, setup, and three evenings of sound and DJ support to this outdoor cinema in Colwyn Bay for <b>£650</b>.</p>
+        </div>
+        <img class="feature-pic lazyload" data-src="images/outdoor-cinema-720px.jpg" alt="Image of a climbing wall.">
+      </div>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
   </div>
+  <div class="main-block" style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+  </div>
+
 
   <div id="footer">
     <div class="centered-block">

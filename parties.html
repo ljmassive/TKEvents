@@ -36,7 +36,7 @@
     }
   </style>
 	<link rel="stylesheet" type="text/css" href="css/style.css" >
-    <link rel="stylesheet" type="text/css" href="css/parties-style.css" >
+    <link rel="stylesheet" type="text/css" href="css/pages-style.css" >
   <script src="https://kit.fontawesome.com/89ddf2470d.js" crossorigin="anonymous" async></script>
   <script src="js/lazysizes.min.js" async></script>
 <head>
@@ -76,52 +76,83 @@
 
   <div id="what-we-do" class="centered-block main-block" >
     <hr >
-    <p class="centered-block" style="max-width: 650px; text-align: justify;">We have a huge range of party equipment available for hire. We have supplied the lights, speakers, stands, mixers, and microphones to anything from decent sized house parties, right through to hangar sized spaces, from city centres, to fields in the middle of nowhere.</p> 
-    <p class="centered-block" style="max-width: 650px; text-align: justify;">We can supply anything from a few lights that will automatically change with the music, through to a DMX controlled light show with dry ice machines and lasers. </p>
-    <p class="centered-block" style="max-width: 650px; text-align: justify;">Each quote is unique to you, depending on the equipment used and the support required to set up, but as there is nothing more annoying than websites that give you no idea what anything costs, here are some examples of what we are able to do...</p>
+    <p class="centered-block" >We have a huge range of party equipment available for hire. We have supplied the lights, speakers, stands, mixers, and microphones to anything from decent sized house parties, right through to hangar sized spaces, from city centres, to fields in the middle of nowhere.</p> 
+    <p class="centered-block" >We can supply anything from a few lights that will automatically change with the music, through to a DMX controlled light show with dry ice machines and lasers. </p>
+    <p class="centered-block" >Each quote is unique to you, depending on the equipment used and the support required to set up, but as there is nothing more annoying than websites that give you no idea what anything costs, here are some examples of what we are able to do...</p>
     <hr >
   </div>
 
-  <div class="main-block">
-    <div class="centered-block feature-container" style="flex-wrap: wrap;">
-      <img class="feature-pic lazyload" data-src="images/party-720px.jpg" alt="Image of a garden party.">
-      <div class="feature-text">
-        <p>We supplied a couple of lights and some 400W speakers to this summer garden party with a small marquee for around <b>£60</b>.</p>
+
+  <script>
+    if (window.innerWidth > 750) {
+      var head = document.getElementsByTagName('head')[0];
+  
+      var s1 = document.createElement("script");
+      s1.type = "text/javascript";
+      s1.src = "js/slides.js";
+      head.appendChild(s1);
+    }
+  </script>
+  
+  <div class="slider-container main-block">
+    <div id="slide_1" class="slide fade">
+      <div class="centered-block feature-container" style="flex-wrap: wrap;">
+        <img class="feature-pic lazyload" data-src="images/party-720px.jpg" alt="Image of a garden party.">
+        <div class="feature-text">
+          <p>We supplied a couple of lights and some 400W speakers to this summer garden party with a small marquee for around <b>£60</b>.</p>
+        </div>
       </div>
     </div>
-
-    <hr>
-
-    <div class="centered-block feature-container">
-      <div class="feature-text">
-        <p>We were able to adapt this barn...</p>
-      </div>
-      <img class="feature-pic lazyload" data-src="images/barn-cows-720px.jpg" alt="Image of cows in a barn.">
-    </div>
-
-    <div class="centered-block feature-container">
-      <img class="feature-pic lazyload" data-src="images/party-720px.jpg" alt="Image of music equipment and a man playing a guitar.">
-      <div class="feature-text">
-        <p>...into this bonfire night party, with a mixer and PA setup for the musicians, festoon lighting, other party lights, and a smoke machine including all the setup for around <b>£300</b>.</p>
-        <p>We didn’t move the cows though! </p>
+  
+    <hr class="mobile-only">
+  
+    <div id="slide_2" class="slide fade">
+      <div class="centered-block feature-container ">
+        <div class="feature-text">
+          <p>We were able to adapt this barn...</p>
+        </div>
+        <img class="feature-pic lazyload" data-src="images/barn-cows-720px.jpg" alt="Image of cows in a barn.">
       </div>
     </div>
-
-    <hr>
-
-    <div class="centered-block feature-container">
-      <div class="feature-text">
-        <p>And we turned this climbing wall and archery range in Cambridgeshire...</p>
-      </div>
-      <img class="feature-pic lazyload" data-src="images/climbing-720px.jpg" alt="Image of a climbing wall.">
-    </div>
-
-    <div class="centered-block feature-container">
-      <img class="feature-pic lazyload" data-src="images/unique-720px.jpeg" alt="Image of smokey party scene with lights.">
-      <div class="feature-text">
-        <p>...into a full power rave for hundreds of students with custom made staging, our biggest speakers, a full DMX controlled lighting show including lasers, and smoke thick enough that you couldn’t see across the room, for around <b>£500</b> (excluding travel).</p>
+  
+    <div id="slide_3" class="slide fade">
+      <div class="centered-block feature-container">
+        <img class="feature-pic lazyload" data-src="images/party-720px.jpg" alt="Image of music equipment and a man playing a guitar.">
+        <div class="feature-text">
+          <p>...into this bonfire night party, with a mixer and PA setup for the musicians, festoon lighting, other party lights, and a smoke machine including all the setup for around <b>£300</b>.</p>
+          <p>We didn’t move the cows though! </p>
+        </div>
       </div>
     </div>
+  
+    <hr class="mobile-only">
+  
+    <div id="slide_4" class="slide fade">
+      <div class="centered-block feature-container ">
+        <div class="feature-text">
+          <p>And we turned this climbing wall and archery range in Cambridgeshire...</p>
+        </div>
+        <img class="feature-pic lazyload" data-src="images/climbing-720px.jpg" alt="Image of a climbing wall.">
+      </div>
+    </div>
+  
+    <div id="slide_5" class="slide fade">
+      <div class="centered-block feature-container">
+        <img class="feature-pic lazyload" data-src="images/unique-720px.jpeg" alt="Image of smokey party scene with lights.">
+        <div class="feature-text">
+          <p>...into a full power rave for hundreds of students with custom made staging, our biggest speakers, a full DMX controlled lighting show including lasers, and smoke thick enough that you couldn’t see across the room, for around <b>£500</b> (excluding travel).</p>
+        </div>
+      </div>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <div class="main-block" style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
   </div>
 
 

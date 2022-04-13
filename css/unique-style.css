@@ -1,0 +1,34 @@
+.feature-pic {
+	padding-top: 1em;
+}
+
+@media screen and (min-width:750px) {
+	.feature-text {
+			width: 360px;
+	}
+	.feature-pic {
+		max-width: 360px;
+	}
+}
+@media screen and (min-width:960px) {
+	.feature-container {
+		justify-content: space-around;
+	}
+	.feature-text {
+		width: 540px;
+	}
+	.feature-pic {
+		max-width: 480px;
+	}
+}
+@media screen and (min-width:1200px) {
+	.feature-container {
+		justify-content: space-around;
+	}
+	.feature-text {
+		width: 650px;
+	}
+	.feature-pic {
+		max-width: 540px;
+	}
+}
