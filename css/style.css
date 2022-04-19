@@ -267,7 +267,7 @@ hr.mobile-only {
     min-height: 375px;
   }
   .main-block {
-    margin: 100px auto;
+    margin: 75px auto;
   }
   .mobile-only {
     display: none;
@@ -353,7 +353,7 @@ hr.mobile-only {
     min-height: 480px;
   }
   .main-block {
-    margin: 130px auto;
+    margin: 100px auto;
   }
 }
 
@@ -369,6 +369,10 @@ hr.mobile-only {
   }
   #wide-banner {
     min-height: 600px;
+  }
+
+  .main-block {
+    margin: 120pox auto;
   }
 }
 
