@@ -159,7 +159,7 @@ nav > div {
   display: block;
   margin: 0 auto;
 }
-#what-we-do p {
+#what-we-do p, #coming-soon p {
   padding: 1em;
   max-width: 400px; 
   text-align: justify;
@@ -233,7 +233,7 @@ hr.mobile-only {
 
 @media screen and (min-width: 750px) {
   nav > div {
-    width: 240px;
+    width: 245px;
     padding: 1em;
   }
   #home-title {
@@ -355,6 +355,9 @@ hr.mobile-only {
   .main-block {
     margin: 100px auto;
   }
+  #what-we-do {
+    margin: -50px auto;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -372,7 +375,7 @@ hr.mobile-only {
   }
 
   .main-block {
-    margin: 120pox auto;
+    margin: 120px auto;
   }
 }
 
